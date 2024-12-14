@@ -20,6 +20,8 @@ db.connect((err) => {
   console.log("Connected to the database");
 });
 
+
+
 // Middleware
 app.use(cors());
 app.use(bodyParser.json());
@@ -28,6 +30,8 @@ app.use(bodyParser.json());
 app.get("/", (req, res) => {
   res.send("Welcome to the CRUD API!");
 });
+
+
 
 // Routes for CRUD operations
 
