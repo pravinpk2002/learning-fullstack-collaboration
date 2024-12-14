@@ -8,11 +8,11 @@ const port = 3000;
 
 // MySQL Database connection
 const db = mysql.createConnection({
-  host: "localhost",
-  user: "root", 
-  password: "",
-  database: "crud_example",
-  port: "3308", 
+  host: process.env.DB_HOST,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASSWORD,
+  database: process.env.DB_DATABASE,
+  port: process.env.DB_PORT,
 });
 
 db.connect((err) => {
