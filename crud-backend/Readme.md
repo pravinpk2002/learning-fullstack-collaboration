@@ -6,10 +6,12 @@
    - Start XAMPP and ensure Apache and MySQL services are running.  
    - Open a browser and go to `http://localhost/phpmyadmin`.
 
+
 2. **Create or Select a Database**  
    - If the database does not exist, create one:  
      - Click **"Databases"**, enter a name, and click **"Create"**.  
    - If it already exists, select it from the left panel.
+
 
 3. **Import the `.sql` File**  
    - Go to the **"Import"** tab in the top menu.  
